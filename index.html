@@ -1,38 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>理想生活上天猫</title>
 </head>
 <style>
-    div{
-        width: 400px;
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        display: block;
+        width: 200px;
         height: 200px;
-        margin: auto;
         text-align: center;
         line-height: 200px;
+        color: #000;
+        float: left;
+
+    }
+    .box{
+        width: 400px;
+        height: 200px;
+        border:1px solid #ff6700;
+        margin: auto;
     }
     .pc{
-        display: block;
-        width: 200px;
-        height: 200px;
-        float: left;
-        background: red;
+        background-color: red;
     }
     .phone{
-        display: block;
-        width: 200px;
-        height: 200px;
-        float: left;
-        background: yellow;
+        background-color: yellow;
     }
 </style>
 <body>
-    <div class="box">
-        <a href="templates/PC.html" class="pc">点击进入PC端</a>
-        <a href="templates/index1.html" class="phone">点击进入移动端</a>
-    </div>
+<div class="box">
+    <a href="templates/PC.html" class="pc">点击进入PC端</a>
+    <a href="templates/phone.html" class="phone">点击进入移动端</a>
+</div>
 </body>
 </html>

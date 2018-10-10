@@ -575,7 +575,6 @@ main .bigbanner .bannerbox{
     display: block;
     height:100%;
     position: absolute;
-    display: none;
 }
 .bigbanner .back{
     width:100%;
@@ -625,26 +624,57 @@ main .bigbanner .bannerbox{
 
 }
 /* 品牌推荐  active*/
-
-.active{
-    margin:auto;
-    padding:24px 0px 0 0;
-    width:1230px;
+.interact-con-con{
+    margin: 30px auto 0;
+    width: 100%;
+    height: 359px;
     overflow: hidden;
 }
-.active .item:first-child{
+/*.interact-con-con .container{
+    margin: 30px auto 0;
+    width: 1230px;
+    height: 359px;
+    !*padding-right: 30px;*!
+}*/
+.interact-con-con .img1{
+    display: block;
+    margin: 0 auto 20px;
+    width: 600px;
+    height: 40px;
+}
+.interact-con-con a{
+    /*display: block;*/
+    float: left;
+    width: 238px;
+    height: 269px;
+    margin-right: 7px;
+}
+.interact-con-con a img{
+    width: 238px;
+    height: 269px;
+}
+.interact-con-con a img:nth-last-child{
+    margin-right: 0;
+}
+main>.container{
+    margin:auto;
+    padding:24px 0px 0 0;
+    /*width:1230px;*/
+    overflow: hidden;
+}
+main>.container .item:first-child{
     width:234px;
 }
-.active .item:last-child{
+main>.container .item:last-child{
     margin: 0;
 }
-.active .item{
+main>.container .item{
     width:485px;
     height:370px;
-    margin-right: 13px;
+    margin-right: 10px;
     float: left;
 }
-.active .item .title{
+main>.container .item .title{
     width:100%;
     height:54px;
     background-color: #fff;
@@ -654,7 +684,7 @@ main .bigbanner .bannerbox{
     position: relative;
 
 }
-.active .item .title h2{
+main>.container .item .title h2{
     float: left;
     font-size: 18px;
     color: #333;
@@ -662,7 +692,7 @@ main .bigbanner .bannerbox{
     margin-left: 10px;
 
 }
-.active .item .title span{
+main>.container .item .title span{
     display: block;
     font-size: 14px;
     font-weight: bold;
@@ -671,7 +701,7 @@ main .bigbanner .bannerbox{
     color: #333;
     line-height: 54px;
 }
-.active .item .title a{
+main>.container .item .title a{
     display: block;
     position: absolute;
     top:0;
@@ -687,12 +717,12 @@ main .bigbanner .bannerbox{
     font-size: 16px;
     color:#666; 
 }
-.active .item .body a{
+main>.container .item .body a{
     display: block;
     width:100%;
     height:100%;
 }
-.active .item .body img:hover{
+main>.container .item .body img:hover{
     opacity:0.7
 }
 /* 各种品牌广告 */
@@ -703,14 +733,13 @@ main .bigbanner .bannerbox{
     background-color: #f5f5f5;
 }
 .brand-list ul{
-    width:100%;
-    height:100%;
+    /*width:100%;*/
+    height:33.333%;
 }
 .brand-list li{
     width:122px;
     height:108px;
     float: left;
-    margin-right: 1px;
     margin-bottom: 1px;
     position: relative;
 }
@@ -765,7 +794,7 @@ main .bigbanner .bannerbox{
     font-size: 12px;
 }
 .floor{
-    width: 1230px;
+    /*width: 1230px;*/
     height:665px;
     margin:20px auto;
 }
@@ -811,10 +840,10 @@ main .bigbanner .bannerbox{
 .floor .con{
     margin-top: 10px;
     height:618px;
-    width:100%;
+    /*width:100%;*/
 }
 .floor .con .left{
-    width:235px;
+    /*width:235px;*/
     height:100%;
     float: left;
     position: relative;
@@ -865,7 +894,7 @@ main .bigbanner .bannerbox{
 }
 .floor .con .left .rightwrap .rightcon{
     margin-top: 8px;
-    margin-left: 14px;
+    /*margin-left: 14px;*/
 }
 .floor .con .left .rightwrap span{
     display: block;
@@ -891,23 +920,24 @@ main .bigbanner .bannerbox{
     display: block;
 }
 .floor .con .right{
-    width:995px;
+    /*width:995px;*/
     height:100%;
     float: left;
 }
 .floor .con .right .change{
-    width:484px;
+    /*width:484px;*/
     height:301px;
-    margin-left: 13px;
+    /*margin-left: 13px;*/
     background-color: #fff;
     position: relative;
     border-bottom: 15px solid #f5f5f5;
     float: left;
 }
 .floor .con .right .change .tabs{
-    width:462px;
+    /*width:462px;*/
     height:282px;
-    margin:10px;
+    /*margin:10px;*/
+    /*padding: 10px;*/
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.09);
 }
 .floor .con .right .change .tabs ul{
@@ -979,7 +1009,7 @@ main .bigbanner .bannerbox{
 .floor .con .right .pice{
     width:235px;
     height:301px;
-    margin-left:13px;
+    margin-left:10px;
     float: left;
     position: relative;
     border-bottom: 15px solid #f5f5f5;
@@ -1021,7 +1051,7 @@ main .bigbanner .bannerbox{
     border: 1px solid #FF0036;
 }
 .like{
-    width:1230px;
+    /*width:1230px;*/
     height:auto;
     margin:20px auto 0;
 }
@@ -1054,15 +1084,15 @@ main .bigbanner .bannerbox{
 .like .title span{
     position: relative;
 }
-.like .wonder{
-    width:100%;
-    margin:10px 0;
+.like .container{
+    /*width:100%;*/
+    margin:10px auto;
     height:316px;
 }
 .like .wonder li{
     width:235px;
     height:301px;
-    margin-right:12px;
+    margin-right:10px;
     float: left;
     position: relative;
     border-bottom: 15px solid #f5f5f5;
